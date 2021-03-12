@@ -1,0 +1,10 @@
+reaction_1: X1 -> Y
+reaction_2: X2 Y -> null
+reaction_311: X1 -> Y
+
+Patch: 
+StmtReplacement({'target': ('Input/Subtraction/CRN/S1.sbml', 40), 'ingredient': ('Input/Subtraction/CRN/S1.sbml', 8)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S1.sbml', 27), 'ingredient': ('Input/Subtraction/CRN/S1.sbml', 8)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S1.sbml', 24), 'ingredient': ('Input/Subtraction/CRN/S1.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S1.sbml', 37)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S1.sbml', 40)})

@@ -1,0 +1,6 @@
+reaction_1: X1 -> Y
+reaction_2: X2 Y -> null
+reaction_3: X2 Y -> null
+
+Patch: 
+StmtReplacement({'target': ('Input/Subtraction/CRN/S8.sbml', 37), 'ingredient': ('Input/Subtraction/CRN/S8.sbml', 24)})

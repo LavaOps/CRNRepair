@@ -1,0 +1,18 @@
+reaction_1: X1 -> PO H M
+reaction_2: PO PO -> PE
+reaction_3: PE PO -> PO
+reaction_4: PE PE -> PE
+reaction_5: H H -> D
+reaction_6: M -> B B B A A A A A A
+reaction_7: B B A A -> null
+reaction_8: PE D -> PE CE Y
+reaction_9: PO A -> PO CO Y
+reaction_10: CE PO Y -> PO D
+reaction_903: CO PE Y -> PE A
+reaction_904: PE PE -> PE
+reaction_905: PO PO -> PE
+
+Patch: 
+StmtInsertion({'target': ('Input/Hailstone/CRN/H2.sbml', 202), 'ingredient': ('Input/Hailstone/CRN/H2.sbml', 184)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H2.sbml', 184), 'ingredient': ('Input/Hailstone/CRN/H2.sbml', 64)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H2.sbml', 184), 'ingredient': ('Input/Hailstone/CRN/H2.sbml', 34)})

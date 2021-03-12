@@ -1,0 +1,12 @@
+reaction_1: X1 -> Y
+reaction_5: X2 Y -> null
+reaction_6: X1 -> Y
+
+Patch: 
+StmtInsertion({'target': ('Input/Subtraction/CRN/S8.sbml', 40), 'ingredient': ('Input/Subtraction/CRN/S8.sbml', 8)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S8.sbml', 37), 'ingredient': ('Input/Subtraction/CRN/S8.sbml', 24)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S8.sbml', 37), 'ingredient': ('Input/Subtraction/CRN/S8.sbml', 24)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S8.sbml', 40)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S8.sbml', 24), 'ingredient': ('Input/Subtraction/CRN/S8.sbml', 37)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S8.sbml', 24), 'ingredient': ('Input/Subtraction/CRN/S8.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S8.sbml', 40)})

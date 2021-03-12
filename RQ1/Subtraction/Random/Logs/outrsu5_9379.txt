@@ -1,0 +1,73 @@
+0: annotation
+1: SimBiology
+2: Version
+3: model
+4: listOfCompartments
+5: compartment
+6: listOfSpecies
+7: species
+8: species
+9: species
+10: listOfReactions
+11: reaction
+12: listOfReactants
+13: speciesReference
+14: speciesReference
+15: kineticLaw
+16: math
+17: apply
+18: times
+19: ci
+20: ci
+21: ci
+22: listOfParameters
+23: parameter
+List of given reactions in plain text:
+reaction_2: X2 Y -> null
+====================== RESULT ======================
+Epoch: 0 Fit.Eval: 100 Time elapsed: 2381.3 BestFitness: 370.0
+BestPatch: StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+Epoch: 1 Fit.Eval: 100 Time elapsed: 2253.3 BestFitness: 370.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 14)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 14)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+Epoch: 2 Fit.Eval: 100 Time elapsed: 2460.6 BestFitness: 370.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+Epoch: 3 Fit.Eval: 100 Time elapsed: 2806.4 BestFitness: 590.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 13), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 14)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 14)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+Epoch: 4 Fit.Eval: 100 Time elapsed: 2718.1 BestFitness: 370.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+Epoch: 5 Fit.Eval: 100 Time elapsed: 2734.7 BestFitness: 370.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+Epoch: 6 Fit.Eval: 100 Time elapsed: 2697.3 BestFitness: 370.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+Epoch: 7 Fit.Eval: 100 Time elapsed: 2851.2 BestFitness: 370.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 13), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 8)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 14)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+Epoch: 8 Fit.Eval: 100 Time elapsed: 2244.3 BestFitness: 370.0
+BestPatch: StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 14), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+Epoch: 9 Fit.Eval: 100 Time elapsed: 2580.9 BestFitness: 590.0
+BestPatch: StmtInsertion({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 11), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S5.sbml', 13), 'ingredient': ('Input/Subtraction/CRN/S5.sbml', 7)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 14)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S5.sbml', 14)})
+Total time for all epochs: 25728.2

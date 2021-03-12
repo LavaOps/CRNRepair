@@ -1,0 +1,9 @@
+reaction_1: X1 -> Y
+mutant-removereactant: Y X2 -> null
+reaction_264: X1 -> Y
+
+Patch: 
+StmtInsertion({'target': ('Input/Subtraction/CRN/S10.sbml', 26), 'ingredient': ('Input/Subtraction/CRN/S10.sbml', 7)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S10.sbml', 26), 'ingredient': ('Input/Subtraction/CRN/S10.sbml', 9)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S10.sbml', 24), 'ingredient': ('Input/Subtraction/CRN/S10.sbml', 11)})
+StmtReplacement({'target': ('Input/Subtraction/CRN/S10.sbml', 26), 'ingredient': ('Input/Subtraction/CRN/S10.sbml', 8)})

@@ -1,0 +1,7 @@
+reaction_1: X1 -> Y
+mutant-addreactant: X2 Y -> null
+reaction_171: X1 -> Y
+
+Patch: 
+StmtInsertion({'target': ('Input/Subtraction/CRN/S6.sbml', 24), 'ingredient': ('Input/Subtraction/CRN/S6.sbml', 11)})
+StmtDeletion({'target': ('Input/Subtraction/CRN/S6.sbml', 28)})

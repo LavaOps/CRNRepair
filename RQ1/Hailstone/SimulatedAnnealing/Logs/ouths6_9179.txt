@@ -1,0 +1,238 @@
+0: annotation
+1: SimBiology
+2: Version
+3: model
+4: listOfCompartments
+5: compartment
+6: listOfSpecies
+7: species
+8: species
+9: species
+10: species
+11: species
+12: species
+13: species
+14: species
+15: species
+16: species
+17: species
+18: listOfReactions
+19: reaction
+20: listOfReactants
+21: speciesReference
+22: listOfProducts
+23: speciesReference
+24: speciesReference
+25: kineticLaw
+26: math
+27: apply
+28: times
+29: ci
+30: ci
+31: listOfParameters
+32: parameter
+33: reaction
+34: listOfReactants
+35: speciesReference
+36: speciesReference
+37: listOfProducts
+38: speciesReference
+39: kineticLaw
+40: math
+41: apply
+42: times
+43: ci
+44: ci
+45: ci
+46: listOfParameters
+47: parameter
+48: reaction
+49: listOfReactants
+50: speciesReference
+51: speciesReference
+52: listOfProducts
+53: speciesReference
+54: kineticLaw
+55: math
+56: apply
+57: times
+58: ci
+59: ci
+60: ci
+61: listOfParameters
+62: parameter
+63: reaction
+64: listOfReactants
+65: speciesReference
+66: speciesReference
+67: listOfProducts
+68: speciesReference
+69: kineticLaw
+70: math
+71: apply
+72: times
+73: ci
+74: ci
+75: ci
+76: listOfParameters
+77: parameter
+78: reaction
+79: listOfReactants
+80: speciesReference
+81: speciesReference
+82: listOfProducts
+83: speciesReference
+84: kineticLaw
+85: math
+86: apply
+87: times
+88: ci
+89: ci
+90: ci
+91: listOfParameters
+92: parameter
+93: reaction
+94: listOfReactants
+95: speciesReference
+96: listOfProducts
+97: speciesReference
+98: speciesReference
+99: speciesReference
+100: speciesReference
+101: speciesReference
+102: speciesReference
+103: speciesReference
+104: speciesReference
+105: speciesReference
+106: kineticLaw
+107: math
+108: apply
+109: times
+110: ci
+111: ci
+112: listOfParameters
+113: parameter
+114: reaction
+115: listOfReactants
+116: speciesReference
+117: speciesReference
+118: speciesReference
+119: speciesReference
+120: kineticLaw
+121: math
+122: apply
+123: times
+124: ci
+125: ci
+126: ci
+127: ci
+128: ci
+129: listOfParameters
+130: parameter
+131: reaction
+132: listOfReactants
+133: speciesReference
+134: speciesReference
+135: listOfProducts
+136: speciesReference
+137: speciesReference
+138: speciesReference
+139: kineticLaw
+140: math
+141: apply
+142: times
+143: ci
+144: ci
+145: ci
+146: listOfParameters
+147: parameter
+148: reaction
+149: listOfReactants
+150: speciesReference
+151: speciesReference
+152: listOfProducts
+153: speciesReference
+154: speciesReference
+155: speciesReference
+156: kineticLaw
+157: math
+158: apply
+159: times
+160: ci
+161: ci
+162: ci
+163: listOfParameters
+164: parameter
+165: reaction
+166: listOfReactants
+167: speciesReference
+168: speciesReference
+169: speciesReference
+170: listOfProducts
+171: speciesReference
+172: speciesReference
+173: kineticLaw
+174: math
+175: apply
+176: times
+177: ci
+178: ci
+179: ci
+180: ci
+181: listOfParameters
+182: parameter
+183: reaction
+184: listOfReactants
+185: speciesReference
+186: speciesReference
+187: speciesReference
+188: listOfProducts
+189: speciesReference
+190: speciesReference
+191: kineticLaw
+192: math
+193: apply
+194: times
+195: ci
+196: ci
+197: ci
+198: ci
+199: listOfParameters
+200: parameter
+List of given reactions in plain text:
+mutant-removeproduct: X1 -> PO H
+reaction_2: PO PO -> PE
+reaction_3: PE PO -> PO
+reaction_4: PE PE -> PE
+reaction_5: H H -> D
+reaction_6: M -> B B B A A A A A A
+reaction_7: B B A A -> null
+reaction_8: PE D -> PE CE Y
+reaction_9: PO A -> PO CO Y
+reaction_10: CE PO Y -> PO D
+reaction_11: CO PE Y -> PE A
+====================== RESULT ======================
+Epoch: 0 Fit.Eval: 100 Time elapsed: 1878.6 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H6.sbml', 78), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 131)})
+Epoch: 1 Fit.Eval: 100 Time elapsed: 2136.8 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H6.sbml', 168), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 17)})
+Epoch: 2 Fit.Eval: 100 Time elapsed: 2198.2 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H6.sbml', 183), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 33)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H6.sbml', 165)})
+Epoch: 3 Fit.Eval: 100 Time elapsed: 2692.0 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H6.sbml', 48), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 93)})
+Epoch: 4 Fit.Eval: 100 Time elapsed: 2659.7 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H6.sbml', 148), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 33)})
+Epoch: 5 Fit.Eval: 100 Time elapsed: 2881.7 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H6.sbml', 100)})
+Epoch: 6 Fit.Eval: 100 Time elapsed: 2829.8 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H6.sbml', 148), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 114)})
+Epoch: 7 Fit.Eval: 100 Time elapsed: 2761.1 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H6.sbml', 99), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 11)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H6.sbml', 189), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 13)})
+Epoch: 8 Fit.Eval: 100 Time elapsed: 2179.9 BestFitness: 35.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H6.sbml', 171)})
+Epoch: 9 Fit.Eval: 100 Time elapsed: 2275.5 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H6.sbml', 154), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 13)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H6.sbml', 183), 'ingredient': ('Input/Hailstone/CRN/H6.sbml', 78)})
+Total time for all epochs: 24493.2

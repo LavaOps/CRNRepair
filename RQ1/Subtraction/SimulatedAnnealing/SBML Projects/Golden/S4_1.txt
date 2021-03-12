@@ -1,0 +1,5 @@
+reaction_1: X1 -> Y
+reaction_2: X2 Y -> null
+
+Patch: 
+StmtDeletion({'target': ('Input/Subtraction/CRN/S4.sbml', 37)})

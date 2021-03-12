@@ -1,0 +1,461 @@
+0: annotation
+1: SimBiology
+2: Version
+3: model
+4: listOfCompartments
+5: compartment
+6: listOfSpecies
+7: species
+8: species
+9: species
+10: species
+11: species
+12: species
+13: species
+14: species
+15: species
+16: species
+17: species
+18: listOfReactions
+19: reaction
+20: listOfReactants
+21: speciesReference
+22: listOfProducts
+23: speciesReference
+24: speciesReference
+25: speciesReference
+26: kineticLaw
+27: math
+28: apply
+29: times
+30: ci
+31: ci
+32: listOfParameters
+33: parameter
+34: reaction
+35: listOfReactants
+36: speciesReference
+37: speciesReference
+38: listOfProducts
+39: speciesReference
+40: kineticLaw
+41: math
+42: apply
+43: times
+44: ci
+45: ci
+46: ci
+47: listOfParameters
+48: parameter
+49: reaction
+50: listOfReactants
+51: speciesReference
+52: speciesReference
+53: listOfProducts
+54: speciesReference
+55: kineticLaw
+56: math
+57: apply
+58: times
+59: ci
+60: ci
+61: ci
+62: listOfParameters
+63: parameter
+64: reaction
+65: listOfReactants
+66: speciesReference
+67: speciesReference
+68: listOfProducts
+69: speciesReference
+70: kineticLaw
+71: math
+72: apply
+73: times
+74: ci
+75: ci
+76: ci
+77: listOfParameters
+78: parameter
+79: reaction
+80: listOfReactants
+81: speciesReference
+82: speciesReference
+83: listOfProducts
+84: speciesReference
+85: kineticLaw
+86: math
+87: apply
+88: times
+89: ci
+90: ci
+91: ci
+92: listOfParameters
+93: parameter
+94: reaction
+95: listOfReactants
+96: speciesReference
+97: listOfProducts
+98: speciesReference
+99: speciesReference
+100: speciesReference
+101: speciesReference
+102: speciesReference
+103: speciesReference
+104: speciesReference
+105: speciesReference
+106: speciesReference
+107: kineticLaw
+108: math
+109: apply
+110: times
+111: ci
+112: ci
+113: listOfParameters
+114: parameter
+115: reaction
+116: listOfReactants
+117: speciesReference
+118: speciesReference
+119: speciesReference
+120: speciesReference
+121: speciesReference
+122: kineticLaw
+123: math
+124: apply
+125: times
+126: ci
+127: ci
+128: ci
+129: ci
+130: ci
+131: ci
+132: listOfParameters
+133: parameter
+134: reaction
+135: listOfReactants
+136: speciesReference
+137: speciesReference
+138: listOfProducts
+139: speciesReference
+140: speciesReference
+141: speciesReference
+142: kineticLaw
+143: math
+144: apply
+145: times
+146: ci
+147: ci
+148: ci
+149: listOfParameters
+150: parameter
+151: reaction
+152: listOfReactants
+153: speciesReference
+154: speciesReference
+155: listOfProducts
+156: speciesReference
+157: speciesReference
+158: speciesReference
+159: kineticLaw
+160: math
+161: apply
+162: times
+163: ci
+164: ci
+165: ci
+166: listOfParameters
+167: parameter
+168: reaction
+169: listOfReactants
+170: speciesReference
+171: speciesReference
+172: speciesReference
+173: listOfProducts
+174: speciesReference
+175: speciesReference
+176: kineticLaw
+177: math
+178: apply
+179: times
+180: ci
+181: ci
+182: ci
+183: ci
+184: listOfParameters
+185: parameter
+186: reaction
+187: listOfReactants
+188: speciesReference
+189: speciesReference
+190: speciesReference
+191: listOfProducts
+192: speciesReference
+193: speciesReference
+194: kineticLaw
+195: math
+196: apply
+197: times
+198: ci
+199: ci
+200: ci
+201: ci
+202: listOfParameters
+203: parameter
+List of given reactions in plain text:
+reaction_1: X1 -> PO H M
+reaction_2: PO PO -> PE
+reaction_3: PE PO -> PO
+reaction_4: PE PE -> PE
+reaction_5: H H -> D
+reaction_6: M -> B B B A A A A A A
+mutant-addreactant: B B A A A -> null
+reaction_8: PE D -> PE CE Y
+reaction_9: PO A -> PO CO Y
+reaction_10: CE PO Y -> PO D
+reaction_11: CO PE Y -> PE A
+====================== RESULT ======================
+Epoch: 0 Fit.Eval: 20 Time elapsed: 444.7 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 1 Fit.Eval: 20 Time elapsed: 467.7 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 2 Fit.Eval: 20 Time elapsed: 687.5 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 49), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 168)})
+Epoch: 3 Fit.Eval: 20 Time elapsed: 679.7 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 4 Fit.Eval: 20 Time elapsed: 722.3 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 105), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 8)})
+Epoch: 5 Fit.Eval: 20 Time elapsed: 536.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 6 Fit.Eval: 20 Time elapsed: 497.1 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 189), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 9)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 7 Fit.Eval: 20 Time elapsed: 488.7 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 49), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 64)})
+Epoch: 8 Fit.Eval: 20 Time elapsed: 604.6 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 9 Fit.Eval: 20 Time elapsed: 643.2 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 102)})
+Epoch: 10 Fit.Eval: 20 Time elapsed: 443.0 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 36), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 8)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 175), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 16)})
+Epoch: 11 Fit.Eval: 20 Time elapsed: 440.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 36)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 193), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 13)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 136), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 11)})
+Epoch: 12 Fit.Eval: 20 Time elapsed: 538.4 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 49), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 64)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 134), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 79)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 13 Fit.Eval: 20 Time elapsed: 686.3 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 189)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 140), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 13)})
+Epoch: 14 Fit.Eval: 20 Time elapsed: 456.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 193)})
+Epoch: 15 Fit.Eval: 20 Time elapsed: 638.3 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 98), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 15)})
+Epoch: 16 Fit.Eval: 20 Time elapsed: 594.5 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 49), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 17 Fit.Eval: 13 Time elapsed: 392.5 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 119)})
+Epoch: 18 Fit.Eval: 20 Time elapsed: 521.6 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 193)})
+Epoch: 19 Fit.Eval: 20 Time elapsed: 527.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 20 Fit.Eval: 20 Time elapsed: 587.6 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 168)})
+Epoch: 21 Fit.Eval: 20 Time elapsed: 439.3 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 64), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 186)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 186), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 19)})
+Epoch: 22 Fit.Eval: 20 Time elapsed: 579.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 101)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 104)})
+Epoch: 23 Fit.Eval: 20 Time elapsed: 453.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 24 Fit.Eval: 20 Time elapsed: 488.5 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 66), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 11)})
+Epoch: 25 Fit.Eval: 20 Time elapsed: 682.1 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 168), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 26 Fit.Eval: 20 Time elapsed: 644.7 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 69), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 11)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 34), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 64)})
+Epoch: 27 Fit.Eval: 20 Time elapsed: 554.1 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 153), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 14)})
+Epoch: 28 Fit.Eval: 20 Time elapsed: 663.0 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 168), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 29 Fit.Eval: 20 Time elapsed: 517.8 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 30 Fit.Eval: 20 Time elapsed: 627.5 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 31 Fit.Eval: 20 Time elapsed: 532.1 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 101)})
+Epoch: 32 Fit.Eval: 20 Time elapsed: 633.6 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 98), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 15)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 134)})
+Epoch: 33 Fit.Eval: 20 Time elapsed: 513.4 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 186)})
+Epoch: 34 Fit.Eval: 20 Time elapsed: 547.1 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 118), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 9)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 101), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 8)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 98), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 9)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 168)})
+Epoch: 35 Fit.Eval: 20 Time elapsed: 615.3 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 19), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 36 Fit.Eval: 20 Time elapsed: 642.4 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 104), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 7)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 115)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 37 Fit.Eval: 1 Time elapsed: 53.9 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 119)})
+Epoch: 38 Fit.Eval: 20 Time elapsed: 678.3 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 168), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 39 Fit.Eval: 20 Time elapsed: 505.9 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 79)})
+Epoch: 40 Fit.Eval: 20 Time elapsed: 449.3 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 134), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 41 Fit.Eval: 20 Time elapsed: 548.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 119)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 106), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 15)})
+Epoch: 42 Fit.Eval: 20 Time elapsed: 644.7 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 193)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 82), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 9)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 168)})
+Epoch: 43 Fit.Eval: 20 Time elapsed: 488.4 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 19), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 44 Fit.Eval: 20 Time elapsed: 560.3 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 104), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 11)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 100)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 106), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 13)})
+Epoch: 45 Fit.Eval: 20 Time elapsed: 514.1 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 168)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 34), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 46 Fit.Eval: 20 Time elapsed: 474.7 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 34), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 47 Fit.Eval: 6 Time elapsed: 126.3 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 120)})
+Epoch: 48 Fit.Eval: 20 Time elapsed: 383.1 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 49 Fit.Eval: 20 Time elapsed: 458.5 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 186), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 64)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 50 Fit.Eval: 20 Time elapsed: 562.2 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 19), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 51 Fit.Eval: 20 Time elapsed: 502.2 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 134), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 151)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 115)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 52 Fit.Eval: 20 Time elapsed: 438.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 106)})
+Epoch: 53 Fit.Eval: 20 Time elapsed: 444.1 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 168), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 54 Fit.Eval: 20 Time elapsed: 564.3 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 100)})
+Epoch: 55 Fit.Eval: 20 Time elapsed: 691.8 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 186), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 56 Fit.Eval: 20 Time elapsed: 636.7 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 186), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 115)})
+Epoch: 57 Fit.Eval: 20 Time elapsed: 663.8 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 186), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 58 Fit.Eval: 20 Time elapsed: 664.1 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 168), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 94)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 186), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 134)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 96)})
+Epoch: 59 Fit.Eval: 12 Time elapsed: 441.3 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 121)})
+Epoch: 60 Fit.Eval: 5 Time elapsed: 144.7 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 120)})
+Epoch: 61 Fit.Eval: 20 Time elapsed: 508.1 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 81), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 14)})
+Epoch: 62 Fit.Eval: 20 Time elapsed: 599.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 104)})
+Epoch: 63 Fit.Eval: 20 Time elapsed: 548.1 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 115), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 19)})
+Epoch: 64 Fit.Eval: 20 Time elapsed: 552.8 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 34), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 19)})
+Epoch: 65 Fit.Eval: 20 Time elapsed: 454.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 66 Fit.Eval: 20 Time elapsed: 457.6 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 19), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 79)})
+Epoch: 67 Fit.Eval: 20 Time elapsed: 500.4 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 118)})
+Epoch: 68 Fit.Eval: 20 Time elapsed: 448.9 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 69), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 14)})
+Epoch: 69 Fit.Eval: 20 Time elapsed: 481.2 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 49), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 186)})
+Epoch: 70 Fit.Eval: 20 Time elapsed: 627.3 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 49), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 168)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 71 Fit.Eval: 20 Time elapsed: 504.7 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 172), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 12)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 118)})
+Epoch: 72 Fit.Eval: 20 Time elapsed: 394.7 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 73 Fit.Eval: 20 Time elapsed: 689.9 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 168), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 74 Fit.Eval: 20 Time elapsed: 534.7 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 75 Fit.Eval: 9 Time elapsed: 260.7 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 120)})
+Epoch: 76 Fit.Eval: 20 Time elapsed: 534.1 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 34), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 186)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 106)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 34)})
+Epoch: 77 Fit.Eval: 20 Time elapsed: 425.4 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 190), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 8)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 96), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 13)})
+Epoch: 78 Fit.Eval: 20 Time elapsed: 577.9 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 101), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 14)})
+Epoch: 79 Fit.Eval: 20 Time elapsed: 392.5 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 79)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 186)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 168)})
+Epoch: 80 Fit.Eval: 20 Time elapsed: 637.6 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 99)})
+StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 154), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 17)})
+Epoch: 81 Fit.Eval: 20 Time elapsed: 537.5 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 134), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 64)})
+Epoch: 82 Fit.Eval: 20 Time elapsed: 446.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 140)})
+Epoch: 83 Fit.Eval: 3 Time elapsed: 92.7 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 121)})
+Epoch: 84 Fit.Eval: 20 Time elapsed: 633.7 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 105)})
+Epoch: 85 Fit.Eval: 20 Time elapsed: 484.8 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 153)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 151), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 168)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 140), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 14)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 86 Fit.Eval: 20 Time elapsed: 492.6 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 34)})
+Epoch: 87 Fit.Eval: 20 Time elapsed: 645.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 106)})
+Epoch: 88 Fit.Eval: 20 Time elapsed: 586.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 84), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 12)})
+Epoch: 89 Fit.Eval: 20 Time elapsed: 393.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 170)})
+Epoch: 90 Fit.Eval: 20 Time elapsed: 554.7 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 174)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 168)})
+Epoch: 91 Fit.Eval: 20 Time elapsed: 536.2 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 115), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 92 Fit.Eval: 20 Time elapsed: 383.9 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 151)})
+Epoch: 93 Fit.Eval: 7 Time elapsed: 230.9 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 121)})
+Epoch: 94 Fit.Eval: 20 Time elapsed: 567.0 BestFitness: 30.0
+BestPatch: StmtInsertion({'target': ('Input/Hailstone/CRN/H1.sbml', 186), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+Epoch: 95 Fit.Eval: 7 Time elapsed: 195.1 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 120)})
+Epoch: 96 Fit.Eval: 20 Time elapsed: 594.4 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 115), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 49)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Epoch: 97 Fit.Eval: 16 Time elapsed: 543.8 BestFitness: 0.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 119)})
+Epoch: 98 Fit.Eval: 20 Time elapsed: 380.5 BestFitness: 30.0
+BestPatch: StmtReplacement({'target': ('Input/Hailstone/CRN/H1.sbml', 94), 'ingredient': ('Input/Hailstone/CRN/H1.sbml', 134)})
+StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 25)})
+Epoch: 99 Fit.Eval: 20 Time elapsed: 318.5 BestFitness: 30.0
+BestPatch: StmtDeletion({'target': ('Input/Hailstone/CRN/H1.sbml', 94)})
+Total time for all epochs: 51124.0

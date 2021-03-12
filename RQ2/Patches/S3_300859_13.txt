@@ -1,0 +1,6 @@
+reaction_1: X1 -> Y
+mutant-changereactant: X2 Y -> null
+
+Patch: 
+StmtDeletion({'target': ('Input/Subtraction/CRN/S3.sbml', 27)})
+StmtInsertion({'target': ('Input/Subtraction/CRN/S3.sbml', 27), 'ingredient': ('Input/Subtraction/CRN/S3.sbml', 9)})

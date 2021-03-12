@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <annotation>
+    <SimBiology xmlns="http://www.mathworks.com">
+      <Version Major="6" Minor="0" Point="0"/>
+    </SimBiology>
+  </annotation>
+  <model id="mw44f89b31_c8b1_4f9f_bb17_0b3c77bc46d3" name="Subtraction">
+    <listOfCompartments>
+      <compartment id="mw17435fd5_c732_4a83_a4fa_89b4177a9135" name="unnamed" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="mw7a5fe946_d001_4fb9_9c3d_fb472fc4e35d" name="X1" compartment="mw17435fd5_c732_4a83_a4fa_89b4177a9135" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="mw3fa6661f_7165_46dc_a839_528055767c5f" name="Y" compartment="mw17435fd5_c732_4a83_a4fa_89b4177a9135" initialConcentration="0" boundaryCondition="false" constant="false"/>
+      <species id="mwca388ec8_3c3e_4164_b492_322b229938c8" name="X2" compartment="mw17435fd5_c732_4a83_a4fa_89b4177a9135" initialConcentration="0" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="mw6a6837f6_96a0_4e94_8be5_4bded1c7520c" name="reaction_1" reversible="false">
+        <listOfReactants>
+          <speciesReference species="mw7a5fe946_d001_4fb9_9c3d_fb472fc4e35d" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="mw3fa6661f_7165_46dc_a839_528055767c5f" stoichiometry="1" />
+        </listOfProducts>
+        <kineticLaw>
+          <math>
+            <apply>
+              <times />
+              <ci> mw384e0889_130c_4ca6_8b99_19e002c3869a </ci>
+              <ci> mw7a5fe946_d001_4fb9_9c3d_fb472fc4e35d </ci>
+            </apply>
+          </math>
+          <listOfParameters>
+            <parameter id="mw384e0889_130c_4ca6_8b99_19e002c3869a" name="kf" value="1" constant="true" />
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="mwba6962eb_b35b_4323_76ee_1058bbd83cc3" name="reaction_42" reversible="false">
+        <listOfReactants>
+          <speciesReference species="mwca388ec8_3c3e_4164_b492_322b229938c8" stoichiometry="1" />
+          <speciesReference species="mw3fa6661f_7165_46dc_a839_528055767c5f" stoichiometry="1" />
+        </listOfReactants>
+        <kineticLaw>
+          <math>
+            <apply>
+              <times />
+              <ci> mw0843ae8c_6cba_4c3b_a650_aef7b999ee70 </ci>
+              <ci> mwca388ec8_3c3e_4164_b492_322b229938c8 </ci>
+              <ci> mw3fa6661f_7165_46dc_a839_528055767c5f </ci>
+            </apply>
+          </math>
+          <listOfParameters>
+            <parameter id="mw0843ae8c_6cba_4c3b_a650_aef7b999ee70" name="kf" value="1" constant="true" />
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="mw9feff74d_0b2a_91e7_318b_ef676a092523" name="reaction_43" reversible="false">
+        <listOfReactants>
+          <speciesReference species="mw7a5fe946_d001_4fb9_9c3d_fb472fc4e35d" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="mw3fa6661f_7165_46dc_a839_528055767c5f" stoichiometry="1" />
+        </listOfProducts>
+        <kineticLaw>
+          <math>
+            <apply>
+              <times />
+              <ci> mw384e0889_130c_4ca6_8b99_19e002c3869a </ci>
+              <ci> mw7a5fe946_d001_4fb9_9c3d_fb472fc4e35d </ci>
+            </apply>
+          </math>
+          <listOfParameters>
+            <parameter id="mw384e0889_130c_4ca6_8b99_19e002c3869a" name="kf" value="1" constant="true" />
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      <reaction id="mw2d675016_0fd0_f325_cfdc_ae24d03f5ba0" name="reaction_44" reversible="false">
+        <listOfReactants>
+          <speciesReference species="mwca388ec8_3c3e_4164_b492_322b229938c8" stoichiometry="1" />
+          <speciesReference species="mw3fa6661f_7165_46dc_a839_528055767c5f" stoichiometry="1" />
+        </listOfReactants>
+        <kineticLaw>
+          <math>
+            <apply>
+              <times />
+              <ci> mw0843ae8c_6cba_4c3b_a650_aef7b999ee70 </ci>
+              <ci> mwca388ec8_3c3e_4164_b492_322b229938c8 </ci>
+              <ci> mw3fa6661f_7165_46dc_a839_528055767c5f </ci>
+            </apply>
+          </math>
+          <listOfParameters>
+            <parameter id="mw0843ae8c_6cba_4c3b_a650_aef7b999ee70" name="kf" value="1" constant="true" />
+          </listOfParameters>
+        </kineticLaw>
+      </reaction>
+      </listOfReactions>
+  </model>
+</sbml>
